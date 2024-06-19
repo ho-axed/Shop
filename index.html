@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <link rel="shortcut icon" href="./media/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/carrito.js"></script>
+    <script type="module" src="./js/ia.js"></script>
+    <title>Tienda - DW2</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+            <div class="carritoclick">Ver carrito🛒</div>
+      </nav>
+      <div class="carritoemoji">
+        <div class="cerrarcarrito">X</div>
+        <div id="total"></div>
+        <div id="carrito"></div>
+      </div>
+    </header>
+    <div class="contprod">
+      <div id="container"></div>
+    </div>
+    <div class="contTodoMess">
+      <div class="mensajes">
+        <ul></ul>
+      </div>
+      <form>
+        <input placeholder="Escribe tu mensaje">
+        <button>Enviar</button>
+      </form>
+      <small>&nbsp;</small>
+      <template id="message-template">
+        <li class="message">
+          <span></span>
+          <p></p>
+        </li>
+      </template>
+    </div>
+  <footer>
+    <p>Pagina creada por <a href="https://github.com/ho-axed">Thiago Martinez</a> mientras realizaba el curso de desarrollo web 2 en Aprende Programando</p>
+  </footer>
+  </body>
+</html>
